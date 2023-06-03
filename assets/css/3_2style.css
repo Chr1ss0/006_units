@@ -28,14 +28,15 @@
     }
 
     h1 {
-        font: 165px Roboto-Bold;
+        font: 10.3125rem Roboto-Bold;
         opacity: 0.6;
-        padding-top: 213px;
+        padding-bottom: 1.75rem;
     }
 
     h2 {
-        font-size: 34px;
+        font-size: 2.125rem;
         font-family: Roboto-Bold;
+        padding-bottom: 0.875rem;
     }
 
     a,
@@ -46,26 +47,28 @@
         color: whitesmoke;
     }
 
+
 p {
-    font-size: 14px;
-    font-family: Roboto-Light;
+    font-size: 0.875rem;
+    font-family: Roboto-Thin;
+    padding-bottom: 8.8125rem;
+    text-s: 0 0 1px black;
 }
 
 a {
     text-decoration: none;
-    font-size: 12px;
+    font: 0.75rem Roboto-Thin;
     border: 1px solid white;
-    border-radius: 1rem;
-    padding: 10px;
+    border-radius: 0.3rem;
+    padding: 0.625rem;
 }
 
     h3 {
         font-family: Roboto-Italic;
         color: black;
-        font-size: 14.4px;
+        font-size: 0.9rem;
+        padding-bottom: 13.3125rem;
     }
-
-    
 
     .background {
         background-image: url(../img/forest.jpg);
