@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    @font-face {
+        font-family: Roboto-Bold;
+        src: url(../font/Roboto-Bold.ttf);
+    }
+    @font-face {
+        font-family: Roboto-Thin;
+        src: url(../font/Roboto-Thin.ttf);
+    }
+    @font-face {
+        font-family: Roboto-Italic;
+        src: url(../font/Roboto-Italic.ttf);
+    }
+
+    :root {
+        --color_dark: #565C73;
+        --color_light: background: #CDD4DE;
+    }
+
+    .font_background {
+        background-color: #45734d85;
+        color: white;
+    }
+
+    h1 {
+        font: 165px Roboto-Bold;
+        opacity: 0.6;
+        padding-top: 213px;
+    }
+
+    h2 {
+        font-size: 34px;
+        font-family: Roboto-Bold;
+    }
+
+    a,
+    p,
+    h1,
+    h2,
+    h3 {
+        color: whitesmoke;
+    }
+
+p {
+    font-size: 14px;
+    font-family: Roboto-Light;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 10px;
+}
+
+    h3 {
+        font-family: Roboto-Italic;
+        color: black;
+        font-size: 14.4px;
+    }
+
+    
+
+    .background {
+        background-image: url(../img/forest.jpg);
+        text-align: center;
+        object-fit: cover;
+        height: 100vh;
+        background-position: center;
+    }
