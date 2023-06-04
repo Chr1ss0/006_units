@@ -1,0 +1,169 @@
+/* === Import === */
+
+@font-face {
+    font-family: Gilda-Display;
+    src: url(../font/GildaDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: Maven-Pro;
+    src: url(../font/MavenPro-VariableFont_wght.ttf);
+}
+
+/* === Variables === */
+
+:root {
+    --color_main: #000000;
+    --color_contrast: #FFFFFF;
+    --color_accent: #949494;
+    --font_main: Maven-Pro;
+    --font_sec: Time;
+}
+
+/* === Global === */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+h2,
+p,
+a {
+    font-family: var(--font_main);
+}
+
+p,
+a {
+    font-size: 16px;
+}
+
+h3,
+h4 {
+    font-family: var(--font_sec);
+}
+
+h2,
+a {
+    color: var(--color_accent);
+}
+
+/* === Header === */
+
+header {
+    background-color: #333333;
+    margin-bottom: 300px;
+}
+
+.header_logo {
+    padding: 0.9375rem 0 4.375rem 1.25rem;
+    font-weight: 700;
+}
+
+.header_logo--br {
+    display: block;
+    padding-left: 0.5625rem;
+}
+
+/* #Warum funktioniert Padding hier nicht ? */
+.header__center {
+    background: linear-gradient(45deg, rgba(255, 0, 255, 0.475) 20%, rgba(39, 39, 240, 0.88) 50%, #48CEFA 100%);
+    color: var(--color_contrast);
+    height: 14.1875rem;
+    margin: 0 auto 38px auto;
+    text-align: center;
+    width: 18.75rem;
+}
+
+.header__center:hover {
+    background: linear-gradient(45deg, #48CEFA 20%, rgba(39, 39, 240, 0.88) 50%, rgba(255, 0, 255, 0.475) 100%);
+}
+
+.header__center__maintext {
+    font: 400 3rem Gilda-Display;
+    line-height: 1.5;
+    padding-bottom: 1.625rem;
+}
+
+.header__nav {
+    text-align: end;
+    padding-right: 1.425rem;
+    padding-bottom: 11.1875rem;
+}
+
+.header__nav__ul {
+    list-style: none;
+}
+
+.header__nav__li {
+    margin-bottom: 1rem;
+}
+
+.header__nav__a {
+    text-decoration: none;
+    
+}
+
+.header__nav__a:hover {
+    text-shadow: 0 0 0.125rem whitesmoke;
+}
+
+/* === Main === */
+
+.main__intro {
+    padding-left: 3.125rem;
+}
+
+.main__intro__headline {
+    font-size: 8.5rem;
+    left: 50;
+    opacity: 0.1;
+    position: absolute;
+    top: 994.32px;
+}
+
+.main__intro__headline__add {
+    font-size: 3.5rem;
+    padding: 5.3125rem 0 3.5rem 0;
+}
+
+.main__intro__headline__text {
+    padding-bottom: 8.5rem;
+    width: 43.2287rem;
+}
+
+.showcase {
+    padding-left: 24.8438rem;
+}
+
+.showcase__frame {
+    padding-top: 5rem;
+}
+
+.showcase__frame__img {
+    height: 27.1487rem;
+    object-fit: cover;
+    padding-bottom: 2.25rem;
+    width: 43.4375rem;
+}
+
+.showcase__frame__headline {
+    font-size: 2rem;
+    padding-bottom: 0.75rem;
+}
+
+.showcase__frame__add {
+    font: 400 1.15rem;
+    
+}
+
+/* === Modifier === */
+
+.--word_spacer {
+    word-spacing: 1.5625rem;
+}
